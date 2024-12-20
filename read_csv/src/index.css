@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table,
+thead,
+tr,
+th,
+td {
+  background-color: #e4e4e4 !important;
+  border-bottom-width: 0 !important;
+}
+
+h3 {
+  text-align: center !important;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  overflow-x: hidden;
+  padding: 20px;
+}
+
+.progress-bg {
+  width: 70%;
+  height: 10px !important;
+  background-color: rgba(0, 0, 0, 0.076) !important;
+  display: inline-block !important;
+}
+
+.progress {
+  width: 0%;
+  height: 10px !important;
+  background-color: #0d6efd !important;
+  transition: width 0.5s ease;
+  float: left;
+}
+
+.alert {
+  width: 69%;
+  padding: 5px 10px !important;
+}
+
+.upload-progress {
+  margin-left: 10px;
+}
+
+.file-upload-section {
+  vertical-align: middle !important;
+}
+
+.form-control {
+  width: 20rem !important;
+  display: inline-block !important;
+}
+
+.custom-form {
+  width: 40%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.custom-form-input {
+  float: right !important;
+  clear: both !important;
+  display: inline-block;
+}
+
+.btn {
+  margin: 10px 10px;
+}
+
+.viewer {
+  width: 100%;
+  background-color: #e4e4e4;
+  margin-top: 10px;
+  padding: 10px;
+  padding-bottom: 0px !important;
+  padding-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-record {
+  padding: 15px;
+}
+
+.pagination {
+  list-style: none;
+  display: inline-flex !important;
+  align-items: center !important;
+  font-size: 1rem;
+  margin-bottom: 0% !important;
+  float: right;
+  clear: both;
+}
+
+.pagination .page-num {
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 400;
+}
+
+.pagination .active {
+  font-weight: bold;
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+.pagination .page-num:hover {
+  background-color: #0d6efd;
+  color: #fff;
+}
